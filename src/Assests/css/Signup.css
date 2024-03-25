@@ -1,0 +1,132 @@
+.container form h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container form h1 span {
+    color: var(--mongo-green);
+}
+
+.container {
+    min-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.padd-15 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right-container {
+    flex: 0 0 50%;
+}
+
+.image-container img {
+    height: 85vh;
+    position: relative;
+    transform: translateY(5%) translateX(10%);
+}
+
+.center-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+
+.left-container {
+    flex: 0 0 50%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.container form .input-field input {
+    width: 98%;
+    height: 30px;
+    border: var(--mongo-green) solid 1px;
+}
+
+.container form .input-field input:focus {
+    outline: var(--mongo-green) solid 1.1px;
+    color: var(--black);
+}
+
+.container .left-container input[type="checkbox"] {
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    align-items: center;
+}
+
+.container .left-container label span {
+    color: blue;
+    cursor: pointer;
+}
+
+.container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .btn button {
+    border: var(--mongo-green) solid 1px;
+    color: var(--white);
+    background-color: var(--mongo-green);
+    cursor: pointer;
+    height: 32px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container .btn button:hover {
+    border-radius: 0px;
+    transform: scale(1.01);
+}
+
+.login-section{
+    text-align: center;
+}
+
+.login-section span{
+    color: blue;
+    cursor: pointer;
+}
+
+.input-field-center p{
+    margin-left: 72%;
+    color: blue;
+    cursor: pointer;
+}
+
+@media(max-width:1300px){
+    .right-container,
+    .left-container{
+        flex: 0 0 100%;
+        padding: 5px 20px 5px 30px;
+    }
+
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:896px){
+    .image-container{
+        display: none;
+    }  
+}
+
+@media(max-width:456px){
+
+    .input-field-center p{
+        margin-left: 65%;
+    }    
+}

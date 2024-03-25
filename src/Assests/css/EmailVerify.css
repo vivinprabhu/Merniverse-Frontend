@@ -1,0 +1,9 @@
+.email-success{
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.email-success p{
+    font-size: 40px;
+}

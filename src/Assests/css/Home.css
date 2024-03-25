@@ -1,0 +1,177 @@
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 15%;
+    background-color: var(--mongo-green);
+}
+
+.sidebar-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.sidebar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .logo img{
+    height: 50px;
+    width: 100px;
+}
+
+.sidebar ul{ 
+    margin-top: 25px;
+    margin-left: -12px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul li{
+    display: flex;
+    padding: 12px;
+    cursor: pointer;
+    color: var(--white);
+    position: relative;
+}
+
+.sidebar ul li:hover{
+    transform: translateX(10px);
+}
+
+.sidebar ul li::before{
+    content: '';
+    width: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 90%;
+    height: 1px;
+    background-color: var(--white);
+    opacity: 50%;    
+}
+
+.sidebar ul li i{
+    cursor: pointer;
+    color: var(--white);
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+/* Watch video */
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 55px;
+    margin-left: 15%;
+}
+
+.video video{
+    width: 100%;
+    height: 85vh;
+}
+
+.video a{
+    margin-top: 2%;
+    color: var(--mongo-green);
+    text-decoration: none;
+}
+
+/* Reference */
+
+.video embed{
+    margin-top: -20px;
+}
+
+/* Quiz Instruction */
+
+.test-instruction{
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.test-instruction p{
+    padding: 3px;
+}
+
+/* Quiz */
+
+.test-1{
+    padding: 15px;
+    margin-left: 15%;
+}
+
+.quiz .question input{
+    margin-right: 10px;
+}
+
+.quiz .question input,
+.quiz .question p{
+    padding: 10px;;
+}
+
+.quiz-submit-btn{
+    border: var(--mongo-green) solid 1px;
+    color: var(--white);
+    background-color: var(--mongo-green);
+    cursor: pointer;
+    height: 32px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 3%;
+}
+
+.quiz-submit-btn:hover{
+    border-radius: 0px;
+    transform: scale(1.01);
+}
+
+@media(max-width:1097px){
+
+    .sidebar .logo img{
+        display: none;
+    }
+
+    .sidebar{
+        position: fixed;
+        width: 50px;
+    }
+
+    .sidebar li{
+        margin-top: 40%;
+        margin-left: -30px;
+    }
+
+    .sidebar ul li p{
+        display: none;
+     }
+
+    .sidebar ul li i {
+        display: block;
+     }
+
+    .video{
+        margin-left: 50px;
+        padding: 20px;
+    }
+
+    .video embed{
+        margin-top: 10px;
+    }
+
+    .test-instruction{
+        margin-left: 10%;
+    }
+
+    .test-1{
+        margin-left: 10%;
+    }
+}
