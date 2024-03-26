@@ -32,7 +32,8 @@
       }
 
     try {
-      const response = await axios.post("http://localhost:3001/api/users", data);
+      const backendUrl = process.env.REACT_APP_BACKEND_URL;
+      const response = await axios.post(`${backendUrl}api/users`, data);
       setMsg(response.data.message)
     } catch (error) {
       if (error.response && error.response.status === 409) {

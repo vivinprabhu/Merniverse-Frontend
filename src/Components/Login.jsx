@@ -31,7 +31,10 @@ const Login = () => {
     } 
 
     try {
-      const { data: res } = await axios.post("http://localhost:3001/api/auth", data);
+      const backendUrl = process.env.REACT_APP_BACKEND_URL;
+      console.log("Backend URL:", backendUrl);
+      console.log(process.env);
+      const { data: res } = await axios.post(`${backendUrl}api/auth`, data);
       console.log(res.message);
       localStorage.setItem("token",res.data);
       localStorage.setItem("name",res.name);
