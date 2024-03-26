@@ -32,8 +32,6 @@ const Login = () => {
 
     try {
       const backendUrl = process.env.REACT_APP_BACKEND_URL;
-      console.log("Backend URL:", backendUrl);
-      console.log(process.env);
       const { data: res } = await axios.post(`${backendUrl}api/auth`, data);
       console.log(res.message);
       localStorage.setItem("token",res.data);
