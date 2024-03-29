@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Merniverse/static/css/main.068c888e.css",
+    "main.js": "/Merniverse/static/js/main.9ce3105f.js",
+    "static/media/Tutorial.mp4": "/Merniverse/static/media/Tutorial.b722e735c53768c97345.mp4",
+    "static/media/reference.pdf": "/Merniverse/static/media/reference.bb964230c6811c4306a2.pdf",
+    "static/media/reactJS.png": "/Merniverse/static/media/reactJS.fb59dfc6bb1bac6b0ad0.png",
+    "static/media/nodejs.png": "/Merniverse/static/media/nodejs.aa8bc616bb8252fa29f3.png",
+    "static/media/git.png": "/Merniverse/static/media/git.0983b7b8f96629e083f1.png",
+    "static/media/signup.svg": "/Merniverse/static/media/signup.43a5549ad7736cce4cd3c76e809a06c7.svg",
+    "static/media/mongoDB.png": "/Merniverse/static/media/mongoDB.41ae1969f341d30268a1.png",
+    "static/media/github.png": "/Merniverse/static/media/github.0144fe56718f3af01a9f.png",
+    "static/media/expressJS.png": "/Merniverse/static/media/expressJS.44e99be40ced53a02362.png",
+    "static/media/land-image.png": "/Merniverse/static/media/land-image.563759306269faca2961.png",
+    "static/media/login.svg": "/Merniverse/static/media/login.eb90bb466c24014ab817883547e3abab.svg",
+    "static/media/logo.png": "/Merniverse/static/media/logo.ff68bd1e9a3fcc7326f6.png",
+    "static/media/flow.avif": "/Merniverse/static/media/flow.0ea50e4aff94e1659ec1.avif",
+    "static/media/postman.png": "/Merniverse/static/media/postman.2fb2d4164a7e6eaf6f65.png",
+    "index.html": "/Merniverse/index.html",
+    "main.068c888e.css.map": "/Merniverse/static/css/main.068c888e.css.map",
+    "main.9ce3105f.js.map": "/Merniverse/static/js/main.9ce3105f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.068c888e.css",
+    "static/js/main.9ce3105f.js"
+  ]
+}
