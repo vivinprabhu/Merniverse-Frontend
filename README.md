@@ -19,3 +19,7 @@
 <h1 style={marginTop:"25px"}>Frontend</h1>
 <li>In frontend, it is super responsive for all screens.</li>
 <li>Also appearance on scroll has been coded in Landing page.</li>
+
+`` `bash
+npm start
+```
