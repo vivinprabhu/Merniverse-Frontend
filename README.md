@@ -31,3 +31,6 @@ npm start
 ```bash
 REACT_APP_BACKEND_URL=http://localhost:[your_port_number]/
 ```
+
+Check out Backend 
+https://github.com/vivinprabhu/Merniverse-Backend.git
