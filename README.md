@@ -20,6 +20,8 @@
 <li>In frontend, it is super responsive for all screens.</li>
 <li>Also appearance on scroll has been coded in Landing page.</li>
 
+<h1>To start frontend project</h1>
+
 ```bash
 npm start
 ```
