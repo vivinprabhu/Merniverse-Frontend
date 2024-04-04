@@ -27,7 +27,7 @@ npm start
 ```
 
 <h1>Add .env file</h1>
-REACT_APP_BACKEND_URL=http://localhost:[port_number]/
-```bash
 
+```bash
+REACT_APP_BACKEND_URL=http://localhost:[your_port_number]/
 ```
