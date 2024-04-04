@@ -20,6 +20,9 @@
 <li>In frontend, it is super responsive for all screens.</li>
 <li>Also appearance on scroll has been coded in Landing page.</li>
 
+<h2> Check out Backend </h2>
+https://github.com/vivinprabhu/Merniverse-Backend.git
+
 <h1>To start frontend project</h1>
 
 ```bash
@@ -31,6 +34,3 @@ npm start
 ```bash
 REACT_APP_BACKEND_URL=http://localhost:[your_port_number]/
 ```
-
-Check out Backend 
-https://github.com/vivinprabhu/Merniverse-Backend.git
